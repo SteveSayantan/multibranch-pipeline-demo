@@ -21,6 +21,9 @@ pipeline {
             }
             steps {
                sh 'echo this only runs for PR'
+               sh 'echo $CHANGE_BRANCH'
+               sh 'echo $BRANCH_NAME'
+                
             }
         }   
     }
