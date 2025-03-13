@@ -20,7 +20,7 @@ pipeline {
                branch 'PR-*' 
             }
             steps {
-               sh 'this only runs for PR' 
+               sh 'echo this only runs for PR'
             }
         }   
     }
